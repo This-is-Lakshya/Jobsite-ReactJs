@@ -1,0 +1,47 @@
+@import "colors";
+
+.search-box{
+    background-color: $third;
+    height: 115vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;    
+    >input{
+        margin-top: 3rem;
+        width: 50vh;
+        height: 7vh;
+        padding: 3vh;
+        color: white;
+        background-color: $second;
+        border-radius: 25px;
+        border: none;
+        margin-bottom: 2rem;
+    }
+
+    >div{
+        .box{
+            background-color: white;
+            border: 1px solid grey;
+            width: 100vh;
+            height: 8vh;
+            margin-bottom: 0.5rem;
+            border-radius: 12px;
+            padding-left: 2rem;
+            display: flex;
+            align-items: center;
+
+            h4{
+                margin-right: 1rem;
+            }
+            .skills{
+                color: blue;
+            }
+        }
+    }
+}
+
+.white-box{
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    height: 8vh;
+}

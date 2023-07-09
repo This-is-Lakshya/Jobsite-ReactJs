@@ -1,0 +1,40 @@
+@import "colors";
+
+nav{
+    width: 100%;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    background-color: $first;
+    top: 0%;
+    z-index: 10;
+    border-bottom: 1px solid $third;
+
+    > main {
+        width: 70%;
+        display: flex;
+        justify-content: flex-end;
+
+        > a {
+            margin: 1rem;
+
+            &:hover{
+                color: $second;
+            }
+        }
+
+    }
+}
+
+#search-pg{
+    width: 10vh;
+    height: 4vh;
+    color: white;
+    background-color: $second;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 15px;
+}

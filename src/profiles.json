@@ -1,0 +1,52 @@
+[
+    {
+        "name": "Lakshya",
+        "age": "21",
+        "skill": "Android-Developer"
+    },
+    {
+        "name": "Lakshya",
+        "age": "19",
+        "skill": "Web-Developer"
+    },
+    {
+        "name": "Sparsh",
+        "age": "20",
+        "skill": "Web-Developer"
+    },
+    {
+        "name": "Satyam",
+        "age": "20",
+        "skill": "Python-Developer"
+    },
+    {
+        "name": "Ayush",
+        "age": "20",
+        "skill": "Android-Developer"
+    },
+    {
+        "name": "Ayush",
+        "age": "20",
+        "skill": "Web-Developer"
+    },
+    {
+        "name": "Prateek",
+        "age": "20",
+        "skill": "Photograpy"
+    },
+    {
+        "name": "Shashank",
+        "age": "19",
+        "skill": "Web-Pages"
+    },
+    {
+        "name": "Anand",
+        "age": "20",
+        "skill": "Logic-Building"
+    },
+    {
+        "name": "Satyam",
+        "age": "20",
+        "skill": "Logic-Building"
+    }
+]

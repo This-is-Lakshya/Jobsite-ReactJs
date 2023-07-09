@@ -1,0 +1,87 @@
+@import "colors";
+
+@media screen and (max-width: 700px){
+    nav{
+        > h1{
+            display: none;
+        }
+        > main{
+            width: 100%;
+            justify-content: center;
+
+            > a{
+                margin: 0.5rem;
+            }
+
+        }
+    }
+
+    .home{
+        > main{
+            align-items: center;
+            > h1{
+            font-size: 3rem;
+        }
+        }
+    }
+
+    .home2{
+        height: 120vh;
+        flex-direction: column;
+        > img{
+            width: 80%;
+        }
+        > div{
+            width: 100%;
+        }
+    }
+
+    .home3{
+        > div{
+            text-align: center;
+            width: 100%;
+            border-radius: 0;
+
+            > p{
+                padding: 5rem 2rem;
+                font-size: 0.9rem;
+            }
+        }
+    }
+
+    .home4{
+        align-items: center;
+        > div{
+            border-radius: 0;
+            width: 100%;
+            height: unset;
+        }
+    }
+
+    .foot{
+        > div{
+            margin: 3.5rem 0;
+            > h5{
+                display: none;
+            }
+        }
+    }
+
+    .contact{
+        > main{
+            padding: 1rem;
+            width: 100%;
+            border-radius: 0;
+
+            > h1{
+                margin: 1rem;
+            }
+            > form{
+                margin: 0;
+                > div{
+                    width: 100%;
+                }
+            }
+        }
+    }
+}
